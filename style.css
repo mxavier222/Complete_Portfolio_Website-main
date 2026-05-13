@@ -28,12 +28,12 @@ header{
 }
 
 header.sticky{
-    background-color: #3a6cf4;
+    
     padding: 10px 200px;
 }
 
 header .brand{
-    color: white;
+    color: #4e9eff ;
     font-size: 1.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -42,14 +42,15 @@ header .brand{
 
 header .navigation{
     position: relative;
+    background-color: transparent;
 }
 
 header .navigation a{
-    color: white;
+    color: #4e9eff;
     font-size: 1em;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 30px;   
 }
 
 header .navigation a:hover{
@@ -64,8 +65,8 @@ section{
     padding: 100px 200px;
 }
 
-.main{
-    position: relative;
+
+.main{ 
     width: 100%;
     height: 100vh;
     display: flex;
@@ -76,6 +77,7 @@ section{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 
 .main .content{
     max-width: 800px;
@@ -88,8 +90,9 @@ section{
 }
 
 .main .content h2 span{
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 600;
+    color: #4e9eff;
 }
 
 .animated-text{
@@ -100,7 +103,7 @@ section{
 
 .animated-text h3{
     color: #4e9eff;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 1px;
@@ -313,17 +316,17 @@ section{
 }
 
 .skills .content .col-right .bar .html::before{
-    width: 95%;
+    width: 99%;
     background-color: #e45126;
 }
 
 .skills .content .col-right .bar .css::before{
-    width: 90%;
+    width: 98%;
     background-color: #0c73b8;
 }
 
 .skills .content .col-right .bar .javascript::before{
-    width: 80%;
+    width: 95%;
     background-color: #e3a324;
 }
 
@@ -333,7 +336,7 @@ section{
 }
 
 .skills .content .col-right .bar .php::before{
-    width: 65%;
+    width: 90%;
     background-color: #6d7eb8;
 }
 
@@ -626,7 +629,7 @@ section{
 
     .menu-btn{
         position: absolute;
-        background-image: url(Image/menu.png);
+        background-image: url(Image/open-menu.png);
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
